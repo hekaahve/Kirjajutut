@@ -9,6 +9,7 @@ import javax.swing.*;
  * @author heini
  *
  */
+@SuppressWarnings("serial")
 public class Flowlayout extends JFrame {
 	
 	JPanel panel = new JPanel();

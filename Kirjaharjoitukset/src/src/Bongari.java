@@ -1,7 +1,5 @@
 package src;
 
-
-
 import javax.swing.*;
 import java.awt.*;
 import java.awt.event.*;
@@ -19,18 +17,22 @@ public class Bongari extends JFrame{
 	JLabel kissa = new JLabel("0");
 	JButton jButton = new JButton("koira");
 	JButton j = new JButton("kissa");
-	
+	JMenu menu = new JMenu();
+			
 	/*
 	 * Luodaan bongari, jolla voi laskea asioita, kuten kissoja ja koiria.
 	 * ja luodaan myös painikkeet lakureille
 	 */
 	public Bongari() {
 		// määrätään asettelija
-		getContentPane().setLayout(new FlowLayout());
+		getContentPane().setLayout(new FlowLayout());		
 		getContentPane().add(jLabel);//nimiö
 		getContentPane().add(kissa);//nimiö
 		getContentPane().add(jButton);//painike
 		getContentPane().add(j);
+		getContentPane().add(new JButton("k"));
+		getContentPane().add(new JLabel("k"));
+		getContentPane().add(menu);
 		//rek. tapahtumankuuntelija
 		addWindowListener(new Lopeta());
 		
