@@ -7,7 +7,7 @@ import javax.swing.*;
  * Kirjan esimerkki flowlayoutista, miten nappulat asettuu
  * tähän layouttiin
  * @author heini
- *
+ * Testi
  */
 @SuppressWarnings("serial")
 public class Flowlayout extends JFrame {
