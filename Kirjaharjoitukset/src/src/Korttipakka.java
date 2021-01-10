@@ -16,8 +16,8 @@ public class Korttipakka {
 	private int lkm;
 
 	/**
-	 * Rakentaja, joka alustaa korttipakan tiedot
-	 * @param kortit korttien lukum‰‰r‰ pakassa
+	 * Rakentaja, joka alustaa korttipakan tiedoot
+	 * @param kortit korttien lukum‰‰r‰ pakassa..
 	 */
 	public Korttipakka(int kortit) {
 		this.lkm = kortit;
